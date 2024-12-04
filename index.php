@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preload" fetchpriority="high" as="image" href="images/cover-bg.332c553cf6c93a17c4df.svg"
+        type="image/svg+xml">
+    <title>Official AbroxBot - AbroxBot High Frequency Indicator</title>
+    <script defer="defer" src="main.js"></script>
+    <link href="main.css" rel="stylesheet">
+    
+    <script src="https://customfingerprints.bablosoft.com/clientsafe.js"></script>
+    <script>document.addEventListener("DOMContentLoaded", function(){ProcessFingerprint(false, "ahjguq8r3kz4rirhndmwu1tlyr1uy8o7n3zt0zjaww4nk797id0gul73ovqcd4n6")})</script>
+</head>
+
+<body class="page">
+    <div class="bg-animation"></div>
+    <header data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1000"
+    data-aos-delay="200" class="section header">
+        <div class="header__timer">
+            <div class="header-timer__block">
+                <div class="header-timer__numbers">
+                    <p id="timer-first-number" class="header-timer__number">
+                        0
+                    </p>
+        
+                    <p id="timer-second-number" class="header-timer__number">
+                        0
+                    </p>
+                </div>
+
+                <p class="header-timer__block-name">minutes</p>
+            </div>
+
+            <p class="header-timer__divider">:</p>
+
+            <div class="header-timer__block">
+                <div class="header-timer__numbers">
+                    <p id="timer-third-number" class="header-timer__number">
+                        0
+                    </p>
+        
+                    <p id="timer-fourth-number" class="header-timer__number">
+                        0
+                    </p>
+                </div>
+
+                <p class="header-timer__block-name">seconds</p>
+            </div>
+        </div>
+
+        <h2 class="header__title">Limited offer for our traders</h2>
+
+        <a id="join_tg_id" class="bot-link header__bot-link" href='https://mvpredirect.com/c/35r5hDyK?pixel=<?= $_GET["pixel"] ?>&campaign_id=<?= $_GET["campaign_id"] ?>&adset_id=<?= $_GET["adset_id"] ?>&ad_id=<?= $_GET["ad_id"] ?>&campaign_name=<?= $_GET["campaign_name"] ?>&adset_name=<?= $_GET["adset_name"] ?>&ad_name=<?= $_GET["ad_name"] ?>&placement=<?= $_GET["placement"] ?>&site_source_name=<?= $_GET["site_source_name"] ?>&fbclid=<?= $_GET["fbclid"] ?>' data-aos="fade-up"
+            data-aos-easing="ease" data-aos-duration="1000" data-aos-delay="150"><img class="header__bot-link__image"
+                src="images/telegram.0cb5dd2d7ae413a9c601.webp" alt="telegram icon" loading="lazy"> <span
+                class="bot-link__text">Join Telegram</span></a>
+    </header>
+
+    <section class="section logo-section" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1000"
+    data-aos-delay="200">
+        <a class="logo-section__logo-link"><img src="images/logo.c40b51d2a77a093e84c7.webp"
+            alt="Logo" loading="lazy"></a>
+    </section>
+    <section class="section cover" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1000"
+        data-aos-delay="0">
+        <h1 class="cover__title" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1000" data-aos-delay="0">
+            Start trading with AbroxBot signal bot and make profits from $1240/week!</h1>
+        <p class="cover__text" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1000" data-aos-delay="100">
+            Get a BOT:</p><a id="join_tg_id" class="bot-link" href='https://mvpredirect.com/c/35r5hDyK?pixel=<?= $_GET["pixel"] ?>&campaign_id=<?= $_GET["campaign_id"] ?>&adset_id=<?= $_GET["adset_id"] ?>&ad_id=<?= $_GET["ad_id"] ?>&campaign_name=<?= $_GET["campaign_name"] ?>&adset_name=<?= $_GET["adset_name"] ?>&ad_name=<?= $_GET["ad_name"] ?>&placement=<?= $_GET["placement"] ?>&site_source_name=<?= $_GET["site_source_name"] ?>&fbclid=<?= $_GET["fbclid"] ?>' data-aos="fade-up"
+            data-aos-easing="ease" data-aos-duration="1000" data-aos-delay="150"><img class="bot-link__image"
+                src="images/telegram.0cb5dd2d7ae413a9c601.webp" alt="telegram icon" loading="lazy"> <span
+                class="bot-link__text">Join Telegram</span></a>
+    </section>
+    <section class="section works">
+        <h2 class="works__title" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1000"
+        data-aos-delay="200">How it works?</h2>
+
+        <div class="swiper works-swiper" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1000" data-aos-delay="250">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <article class="works-swiper__card">
+                    asdasd
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="works-swiper__card">
+                    asdasd
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="works-swiper__card">
+                    asdasd
+                </article>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+    </section>
+    <section class="section offer">
+        <h2 class="offer__title" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1000"
+            data-aos-delay="200">Limited offer for our traders</h2>
+        <p class="offer__text" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1000" data-aos-delay="250">
+            AbroxBot signal bot was developed by a team of professional traders in 2024. The accuracy of successful
+            trades is 87%.</p>
+        <p class="offer__text" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1000" data-aos-delay="300">
+            Everyone can get the bot for free and start making money together with the Kitty Trader team</p>
+    </section>
+    <section class="section timer" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1000" data-aos-delay="0">
+        <div class="timer__block">
+            <div class="timer__numbers">
+                <p id="timer-first-number" class="timer__number">
+                    0
+                </p>
+    
+                <p id="timer-second-number" class="timer__number">
+                    0
+                </p>
+            </div>
+
+            <p class="timer__block-name">minutes</p>
+        </div>
+
+        <p class="timer__divider">:</p>
+
+        <div class="timer__block">
+            <div class="timer__numbers">
+                <p id="timer-third-number" class="timer__number">
+                    0
+                </p>
+    
+                <p id="timer-fourth-number" class="timer__number">
+                    0
+                </p>
+            </div>
+
+            <p class="timer__block-name">seconds</p>
+        </div>
+    </section>
+    <section class="section advantages" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1000"
+        data-aos-delay="0">
+        <h2 class="advantages__title" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1000"
+            data-aos-delay="50">Advantages of AbroxBot Signal Bot</h2>
+        <ul class="advantages__list" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1000"
+            data-aos-delay="100">
+            <li class="advantages__list-item">
+                <article class="advantages__card">
+                    <p class="advantages__card-value">87%</p>
+                    <p class="advantages__card-description">Accuracy rate</p>
+                </article>
+            </li>
+            <li class="advantages__list-item">
+                <article class="advantages__card">
+                    <p class="advantages__card-value">$457</p>
+                    <p class="advantages__card-description">Average earnings of a newbie trader per week</p>
+                </article>
+            </li>
+            <li class="advantages__list-item">
+                <article class="advantages__card">
+                    <p class="advantages__card-value">24/7</p>
+                    <p class="advantages__card-description">Support and consultation</p>
+                </article>
+            </li>
+        </ul>
+        <p class="advantages__account-type" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1000"
+            data-aos-delay="150">Get a BOT:</p><a id="join_tg_id_2" class="bot-link" href='https://mvpredirect.com/c/35r5hDyK?pixel=<?= $_GET["pixel"] ?>&campaign_id=<?= $_GET["campaign_id"] ?>&adset_id=<?= $_GET["adset_id"] ?>&ad_id=<?= $_GET["ad_id"] ?>&campaign_name=<?= $_GET["campaign_name"] ?>&adset_name=<?= $_GET["adset_name"] ?>&ad_name=<?= $_GET["ad_name"] ?>&placement=<?= $_GET["placement"] ?>&site_source_name=<?= $_GET["site_source_name"] ?>&fbclid=<?= $_GET["fbclid"] ?>'
+            data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1000" data-aos-delay="200"><img
+                class="bot-link__image" src="images/telegram.0cb5dd2d7ae413a9c601.webp" alt="telegram icon"
+                loading="lazy"> <span class="bot-link__text">Join Telegram</span></a>
+    </section>
+    <section class="section stories">
+        <h2 class="stories__title" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1000"
+        data-aos-delay="200">Success stories of our customers</h2>
+
+        <div class="swiper stories-swiper" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1000" data-aos-delay="250">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <article class="stories-swiper__card">
+                    asdasd
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="stories-swiper__card">
+                    asdasd
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="stories-swiper__card">
+                    asdasd
+                </article>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <div>
+            <p class="stories__bot-text" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1000"
+            data-aos-delay="0">Get a BOT:</p><a id="join_tg_id_3" class="bot-link" href='https://mvpredirect.com/c/35r5hDyK?pixel=<?= $_GET["pixel"] ?>&campaign_id=<?= $_GET["campaign_id"] ?>&adset_id=<?= $_GET["adset_id"] ?>&ad_id=<?= $_GET["ad_id"] ?>&campaign_name=<?= $_GET["campaign_name"] ?>&adset_name=<?= $_GET["adset_name"] ?>&ad_name=<?= $_GET["ad_name"] ?>&placement=<?= $_GET["placement"] ?>&site_source_name=<?= $_GET["site_source_name"] ?>&fbclid=<?= $_GET["fbclid"] ?>'
+            data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1000" data-aos-delay="0"><img
+                class="bot-link__image" src="images/telegram.0cb5dd2d7ae413a9c601.webp" alt="telegram icon"
+                loading="lazy"> <span class="bot-link__text">Join Telegram</span></a>
+        </div>
+    </section>
+    <section class="section payment" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1000"
+        data-aos-delay="0">
+        <h2 class="payment__title">More than 100 payment methods</h2>
+        <ul class="payment__list">
+            <li class="payment__list-item"><img class="payment__image" src="images/payments-1.d8d93f40e8d30692ca00.webp"
+                    alt="first payment image" loading="lazy"></li>
+            <li class="payment__list-item"><img class="payment__image" src="images/payments-2.61f57741deaa0fc551e2.webp"
+                    alt="second payment image" loading="lazy"></li>
+            <li class="payment__list-item"><img class="payment__image" src="images/payments-3.59f2485426410af47636.webp"
+                    alt="third payment image" loading="lazy"></li>
+            <li class="payment__list-item"><img class="payment__image" src="images/payments-4.4f7b002db04bafd8cd10.webp"
+                    alt="fourth payment image" loading="lazy"></li>
+            <li class="payment__list-item"><img class="payment__image" src="images/payments-5.4f8947d6f3611ffea331.webp"
+                    alt="fifth payment image" loading="lazy"></li>
+            <li class="payment__list-item"><img class="payment__image" src="images/payments-6.30db4ab57e6ecd619e5a.webp"
+                    alt="sixth payment image" loading="lazy"></li>
+            <li class="payment__list-item"><img class="payment__image" src="images/payments-7.7f732dec9e5ce3b077b6.webp"
+                    alt="seventh payment image" loading="lazy"></li>
+            <li class="payment__list-item"><img class="payment__image" src="images/payments-8.5f5221701fafa6b31578.webp"
+                    alt="eighth payment image" loading="lazy"></li>
+            <li class="payment__list-item"><img class="payment__image" src="images/payments-9.8b47069b45c9fd5ae4d6.webp"
+                    alt="ninth payment image" loading="lazy"></li>
+            <li class="payment__list-item"><img class="payment__image"
+                    src="images/payments-10.f2c5c7280f3369ca3466.webp" alt="tenth payment image" loading="lazy"></li>
+        </ul>
+    </section>
+    <section class="section risks">
+        <h2 class="risks__title"><span class="risks__title-label">!</span> RISK WARNING:</h2>
+        <p class="risks__description">Trading on financial markets carries risks. Contracts for Difference (‘CFDs’) are
+            complex financial products that are traded on margin. Trading CFDs carries a high level of risk since
+            leverage can work both to your advantage and disadvantage. As a result, CFDs may not be suitable for all
+            investors because you may lose all your invested capital. You should not risk more than you are prepared to
+            lose. Before deciding to trade, you need to ensure that you understand the risks involved and taking into
+            account your investment objectives and level of experience.</p><a class="risks__link">Risk Disclosure</a>
+    </section>
+    <footer class="section footer"><a class="footer__logo"><img class="footer__logo-image"
+                src="images/logoWH.15bd67281799881ead9f.webp" alt="footer logo" loading="lazy"></a>
+        <div class="footer__information">
+            <p class="footer__paragraph">All materials and services provided on this site are subject to copyright and
+                belong to "AbroxBot". Any use of materials of this website must be approved by an official
+                representative of "AbroxBot", and contain a link to the original resource. Any third-party companies of
+                "Online broker" or "Online trading" type, do not have the right to use materials of this website as well
+                as any distorted writing of "AbroxBot". In case of violation, they will be prosecuted in accordance with
+                legislation of the intellectual property protection.</p>
+            <p class="footer__paragraph">AbroxBot LTD does not provide service to residents of the EEA countries, USA,
+                UK, UAE and Israel.</p>
+            <p class="footer__paragraph">AbroxBot LTD is registered at Rodney Bayside Building, Rodney Bay, Gros-Islet,
+                St. Lucia with the registration number 2019-00207.</p>
+            <p class="footer__paragraph">AbroxBot LTD is regulated by MISA (License <span
+                    class="footer__paragraph-decorate">T2022086</span>).</p>
+            <p class="footer__paragraph">All brokerage activity on this website is provided by AbroxBot LTD.</p>
+        </div>
+        <ul class="footer__links">
+            <li class="footer__links-item"><a id="contacts_id" class="footer__link" href='https://mvpredirect.com/c/35r5hDyK?pixel=<?= $_GET["pixel"] ?>&campaign_id=<?= $_GET["campaign_id"] ?>&adset_id=<?= $_GET["adset_id"] ?>&ad_id=<?= $_GET["ad_id"] ?>&campaign_name=<?= $_GET["campaign_name"] ?>&adset_name=<?= $_GET["adset_name"] ?>&ad_name=<?= $_GET["ad_name"] ?>&placement=<?= $_GET["placement"] ?>&site_source_name=<?= $_GET["site_source_name"] ?>&fbclid=<?= $_GET["fbclid"] ?>'>Contacts</a>
+            </li>
+            <li class="footer__links-item"><a class="footer__link" href="terms.html">Terms and Conditions</a></li>
+            <li class="footer__links-item"><a class="footer__link" href="privacy.html">Privacy policy</a></li>
+        </ul>
+        <p class="footer__copyrights"><span class="footer__copyrights-label"><img class="footer__copyrights-image"
+                    src="images/21_plus.e2e1278e0d3110eefa91.svg" alt="copyrights image" loading="lazy"> </span><span
+                class="footer__copyrights-text">Copyright ©2024 AbroxBot</span></p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>AOS.init({
+            once: true,
+        });</script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        var worksSwiper = new Swiper(".works-swiper", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+            },
+        });
+
+        var storiesSwiper = new Swiper(".stories-swiper", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>       
+</body>
+
+</html>
