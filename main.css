@@ -67,7 +67,7 @@
 }
 
 .offer {
-  padding-block-end: clamp(3rem, 2.2958rem + 3.0047vw, 5rem);
+  padding-block-end: clamp(3rem, 1.2394rem + 7.5117vw, 8rem);
   position: relative;
   z-index: 5;
 }
@@ -75,7 +75,7 @@
 .offer__title {
   font-family: Montserrat, sans-serif;
   font-size: clamp(1.5rem, 0.9718rem + 2.2535vw, 3rem);
-  margin-block-end: clamp(2rem, 1.6479rem + 1.5023vw, 3rem);
+  margin-block-end: 3rem;
   text-align: center;
 }
 
@@ -184,7 +184,7 @@
 }
 
 .steps {
-  margin-block-end: clamp(4rem, 1.8873rem + 9.0141vw, 10rem);
+  padding-block-end: clamp(3rem, 1.2394rem + 7.5117vw, 8rem);
   position: relative;
 }
 
@@ -342,13 +342,13 @@
 }
 
 .advantages {
-  margin-block-end: clamp(4rem, 1.8873rem + 9.0141vw, 10rem);
+  padding-block-end: clamp(3rem, 1.2394rem + 7.5117vw, 8rem);
 }
 
 .advantages__title {
   font-family: Montserrat, sans-serif;
   font-size: clamp(1.5rem, 1.1479rem + 1.5023vw, 2.5rem);
-  margin-block-end: clamp(4rem, 2.5437rem + 6.2136vw, 10rem);
+  margin-block-end: 3rem;
   text-align: center;
 }
 
@@ -401,7 +401,7 @@
   display: flex;
   flex-direction: column;
   row-gap: 3rem;
-  margin-block-end: clamp(4rem, 1.8873rem + 9.0141vw, 10rem);
+  padding-block-end: clamp(3rem, 1.2394rem + 7.5117vw, 8rem);
 }
 
 .stories__title {
@@ -419,13 +419,13 @@
 }
 
 .payment {
-  margin-block-end: clamp(4rem, 1.8873rem + 9.0141vw, 10rem);
+  padding-block-end: clamp(3rem, 1.2394rem + 7.5117vw, 8rem);
 }
 
 .payment__title {
   font-family: Montserrat, sans-serif;
   font-size: clamp(1.5rem, 1.1479rem + 1.5023vw, 2.5rem);
-  margin-block-end: clamp(2rem, 0.9437rem + 4.507vw, 5rem);
+  margin-block-end: 3rem;
   text-align: center;
 }
 
@@ -723,7 +723,7 @@
   display: flex;
   gap: 10px;
 
-  padding-block-end: clamp(3rem, 2.2958rem + 3.0047vw, 5rem);
+  padding-block-end: clamp(3rem, 1.2394rem + 7.5117vw, 8rem);
 
   width: 100%;
 
@@ -785,6 +785,14 @@
   position: relative; /* Меняем абсолютное позиционирование на относительное */
   top: 0px; /* Смещаем ниже под слайды */
   text-align: center; /* Центрируем точки */
+}
+
+.swiper-button-next {
+  transform: translate(0, -50%);
+}
+
+.swiper-button-prev {
+  transform: translate(0, -50%);
 }
 
 .swiper-pagination-bullet {
@@ -852,12 +860,14 @@
 @media (width <= 768px) {
   .works-swiper__card {
     width: 300px;
+    height: 300px;
   }
 }
 
 @media (width <= 428px) {
   .works-swiper__card {
     width: 250px;
+    height: 250px;
   }
 }
 
