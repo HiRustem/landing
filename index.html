@@ -22,16 +22,6 @@
     <title>Official AbroxBot - AbroxBot High Frequency Indicator</title>
     <script defer="defer" src="main.js"></script>
     <link href="main.css" rel="stylesheet" />
-
-    <script src="https://customfingerprints.bablosoft.com/clientsafe.js"></script>
-    <!-- <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        ProcessFingerprint(
-          false,
-          "ahjguq8r3kz4rirhndmwu1tlyr1uy8o7n3zt0zjaww4nk797id0gul73ovqcd4n6"
-        );
-      });
-    </script> -->
   </head>
 
   <body class="page">
@@ -205,33 +195,52 @@
       </p>
     </section>
     <section
-      class="section timer"
+      class="section timer-section"
       data-aos="fade-up"
       data-aos-easing="ease"
       data-aos-duration="1000"
       data-aos-delay="0"
     >
-      <div id="timer-widget" class="timer__block">
-        <div class="timer__numbers">
-          <p id="timer-first-number" class="timer__number">1</p>
+      <div class="timer">
+        <div id="timer-widget" class="timer__block">
+          <div class="timer__numbers">
+            <p id="timer-first-number" class="timer__number">1</p>
 
-          <p id="timer-second-number" class="timer__number">0</p>
+            <p id="timer-second-number" class="timer__number">0</p>
+          </div>
+
+          <p class="timer__block-name">minutes</p>
         </div>
 
-        <p class="timer__block-name">minutes</p>
-      </div>
+        <p class="timer__divider">:</p>
 
-      <p class="timer__divider">:</p>
+        <div class="timer__block">
+          <div class="timer__numbers">
+            <p id="timer-third-number" class="timer__number">0</p>
 
-      <div class="timer__block">
-        <div class="timer__numbers">
-          <p id="timer-third-number" class="timer__number">0</p>
+            <p id="timer-fourth-number" class="timer__number">0</p>
+          </div>
 
-          <p id="timer-fourth-number" class="timer__number">0</p>
+          <p class="timer__block-name">seconds</p>
         </div>
-
-        <p class="timer__block-name">seconds</p>
       </div>
+
+      <a
+        id="join_tg_id"
+        class="bot-link"
+        href='https://mvpredirect.com/c/35r5hDyK?pixel=<?= $_GET["pixel"] ?>&campaign_id=<?= $_GET["campaign_id"] ?>&adset_id=<?= $_GET["adset_id"] ?>&ad_id=<?= $_GET["ad_id"] ?>&campaign_name=<?= $_GET["campaign_name"] ?>&adset_name=<?= $_GET["adset_name"] ?>&ad_name=<?= $_GET["ad_name"] ?>&placement=<?= $_GET["placement"] ?>&site_source_name=<?= $_GET["site_source_name"] ?>&fbclid=<?= $_GET["fbclid"] ?>'
+        data-aos="fade-up"
+        data-aos-easing="ease"
+        data-aos-duration="1000"
+        data-aos-delay="150"
+        ><img
+          class="bot-link__image"
+          src="images/telegram.0cb5dd2d7ae413a9c601.webp"
+          alt="telegram icon"
+          loading="lazy"
+        />
+        <span class="bot-link__text">Join Telegram</span></a
+      >
     </section>
     <section
       class="section advantages"
@@ -540,6 +549,17 @@
         ><span class="footer__copyrights-text">Copyright ©2024 AbroxBot</span>
       </p>
     </footer>
+
+    <script src="https://customfingerprints.bablosoft.com/clientsafe.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        ProcessFingerprint(
+          false,
+          "ahjguq8r3kz4rirhndmwu1tlyr1uy8o7n3zt0zjaww4nk797id0gul73ovqcd4n6"
+        );
+      });
+    </script>
+
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
       AOS.init({
@@ -550,7 +570,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script>
-      var minutes = 10;
+      var minutes = 5;
       var seconds = 0;
 
       var timerWidgetsFirstNumbers = document.querySelectorAll(
@@ -568,7 +588,7 @@
 
       function updateNumbers(numberElements, number) {
         for (let i = 0; i < numberElements.length; i++) {
-            numberElements.item(i).textContent = number;
+          numberElements.item(i).textContent = number;
         }
       }
 
