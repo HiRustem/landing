@@ -818,7 +818,7 @@
 }
 
 .swiper-slide {
-  height: 80%;
+  height: 100%;
   text-align: center;
   font-size: 18px;
   display: flex;
@@ -828,7 +828,6 @@
 }
 
 .swiper-slide img {
-  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -840,7 +839,8 @@
 
 .stories-slide.swiper-slide-active {
   z-index: 10;
-  transform: scale(1.1); /* Увеличиваем активный слайд */
+  transform: scale(1.1);
+  height: 550px;
 }
 
 .swiper-slide.stories-slide.swiper-slide-prev {
@@ -861,7 +861,16 @@
 .works-swiper__card {
   width: 500px;
   height: 500px;
-  background-color: #fff;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.stories-swiper__card {
+  width: 500px;
+  height: 500px;
+  min-width: 250px;
+  border-radius: 1rem;
+  overflow: hidden;
 }
 
 @media (width <= 768px) {
@@ -876,11 +885,4 @@
     width: 250px;
     height: 250px;
   }
-}
-
-.stories-swiper__card {
-  width: 500px;
-  height: 500px;
-  background-color: #fff;
-  min-width: 250px;
 }
