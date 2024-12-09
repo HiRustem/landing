@@ -20,7 +20,6 @@
       type="image/svg+xml"
     />
     <title>Official AbroxBot - AbroxBot High Frequency Indicator</title>
-    <script defer="defer" src="main.js"></script>
     <link href="main.css" rel="stylesheet" />
   </head>
 
@@ -150,27 +149,52 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <article class="works-swiper__card">
-              <img class="works-swiper__image" src="./images/works_swiper_1.jpg" alt="works_swiper_1" loading="lazy">
+              <img
+                class="works-swiper__image"
+                src="./images/works_swiper_1.jpg"
+                alt="works_swiper_1"
+                loading="lazy"
+              />
             </article>
           </div>
           <div class="swiper-slide">
             <article class="works-swiper__card">
-              <img class="works-swiper__image" src="./images/works_swiper_2.jpg" alt="works_swiper_2"  loading="lazy">
+              <img
+                class="works-swiper__image"
+                src="./images/works_swiper_2.jpg"
+                alt="works_swiper_2"
+                loading="lazy"
+              />
             </article>
           </div>
           <div class="swiper-slide">
             <article class="works-swiper__card">
-              <img class="works-swiper__image" src="./images/works_swiper_3.jpg" alt="works_swiper_3"  loading="lazy">
+              <img
+                class="works-swiper__image"
+                src="./images/works_swiper_3.jpg"
+                alt="works_swiper_3"
+                loading="lazy"
+              />
             </article>
           </div>
           <div class="swiper-slide">
             <article class="works-swiper__card">
-              <img class="works-swiper__image" src="./images/works_swiper_4.jpg" alt="works_swiper_4"  loading="lazy">
+              <img
+                class="works-swiper__image"
+                src="./images/works_swiper_4.jpg"
+                alt="works_swiper_4"
+                loading="lazy"
+              />
             </article>
           </div>
           <div class="swiper-slide">
             <article class="works-swiper__card">
-              <img class="works-swiper__image" src="./images/works_swiper_5.jpg" alt="works_swiper_5"  loading="lazy">
+              <img
+                class="works-swiper__image"
+                src="./images/works_swiper_5.jpg"
+                alt="works_swiper_5"
+                loading="lazy"
+              />
             </article>
           </div>
         </div>
@@ -349,27 +373,52 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide stories-slide">
             <article class="stories-swiper__card">
-              <img class="stories-swiper__image" src="./images/stories_swiper_1.jpg" alt="stories_swiper_1" loading="lazy">
+              <img
+                class="stories-swiper__image"
+                src="./images/stories_swiper_1.jpg"
+                alt="stories_swiper_1"
+                loading="lazy"
+              />
             </article>
           </div>
           <div class="swiper-slide stories-slide">
             <article class="stories-swiper__card">
-              <img class="stories-swiper__image" src="./images/stories_swiper_2.jpg" alt="stories_swiper_2" loading="lazy">
+              <img
+                class="stories-swiper__image"
+                src="./images/stories_swiper_2.jpg"
+                alt="stories_swiper_2"
+                loading="lazy"
+              />
             </article>
           </div>
           <div class="swiper-slide stories-slide">
             <article class="stories-swiper__card">
-              <img class="stories-swiper__image" src="./images/stories_swiper_3.jpg" alt="stories_swiper_3" loading="lazy">
+              <img
+                class="stories-swiper__image"
+                src="./images/stories_swiper_3.jpg"
+                alt="stories_swiper_3"
+                loading="lazy"
+              />
             </article>
           </div>
           <div class="swiper-slide stories-slide">
             <article class="stories-swiper__card">
-              <img class="stories-swiper__image" src="./images/stories_swiper_4.jpg" alt="stories_swiper_4" loading="lazy">
+              <img
+                class="stories-swiper__image"
+                src="./images/stories_swiper_4.jpg"
+                alt="stories_swiper_4"
+                loading="lazy"
+              />
             </article>
           </div>
           <div class="swiper-slide stories-slide">
             <article class="stories-swiper__card">
-              <img class="stories-swiper__image" src="./images/stories_swiper_5.jpg" alt="stories_swiper_5" loading="lazy">
+              <img
+                class="stories-swiper__image"
+                src="./images/stories_swiper_5.jpg"
+                alt="stories_swiper_5"
+                loading="lazy"
+              />
             </article>
           </div>
         </div>
@@ -575,86 +624,93 @@
       </p>
     </footer>
 
-    <script src="https://customfingerprints.bablosoft.com/clientsafe.js"></script>
-    <script>
-      window.onload = function() {
-        ProcessFingerprint(
-          false,
-          "ahjguq8r3kz4rirhndmwu1tlyr1uy8o7n3zt0zjaww4nk797id0gul73ovqcd4n6"
-        );
-      }
-    </script>
+    <script
+      defer="defer"
+      src="https://customfingerprints.bablosoft.com/clientsafe.js"
+    ></script>
 
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+    <script
+      defer="defer"
+      src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+    ></script>
+
     <script>
       AOS.init({
         once: true,
       });
-    </script>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      window.onload = function () {
+        ProcessFingerprint(
+          false,
+          "ahjguq8r3kz4rirhndmwu1tlyr1uy8o7n3zt0zjaww4nk797id0gul73ovqcd4n6"
+        );
+      };
 
-    <script>
-      var minutes = 5;
-      var seconds = 0;
+      window.onload = () => {
+        var minutes = 5;
+        var seconds = 0;
 
-      var timerWidgetsFirstNumbers = document.querySelectorAll(
-        "#timer-first-number"
-      );
-      var timerWidgetsSecondNumbers = document.querySelectorAll(
-        "#timer-second-number"
-      );
-      var timerWidgetsThirdNumbers = document.querySelectorAll(
-        "#timer-third-number"
-      );
-      var timerWidgetsFourthNumbers = document.querySelectorAll(
-        "#timer-fourth-number"
-      );
+        var timerWidgetsFirstNumbers = document.querySelectorAll(
+          "#timer-first-number"
+        );
+        var timerWidgetsSecondNumbers = document.querySelectorAll(
+          "#timer-second-number"
+        );
+        var timerWidgetsThirdNumbers = document.querySelectorAll(
+          "#timer-third-number"
+        );
+        var timerWidgetsFourthNumbers = document.querySelectorAll(
+          "#timer-fourth-number"
+        );
 
-      function updateNumbers(numberElements, number) {
-        for (let i = 0; i < numberElements.length; i++) {
-          numberElements.item(i).textContent = number;
-        }
-      }
-
-      setInterval(() => {
-        if (minutes === 0 && seconds === 0) {
-          return;
-        } else if (minutes !== 0 && seconds === 0) {
-          minutes -= 1;
-          seconds = 59;
-        } else {
-          seconds -= 1;
+        function updateNumbers(numberElements, number) {
+          for (let i = 0; i < numberElements.length; i++) {
+            numberElements.item(i).textContent = number;
+          }
         }
 
-        var stringMinutes = String(minutes).padStart(2, "0");
-        var stringSeconds = String(seconds).padStart(2, "0");
+        setInterval(() => {
+          if (minutes === 0 && seconds === 0) {
+            return;
+          } else if (minutes !== 0 && seconds === 0) {
+            minutes -= 1;
+            seconds = 59;
+          } else {
+            seconds -= 1;
+          }
 
-        updateNumbers(timerWidgetsFirstNumbers, stringMinutes[0]);
-        updateNumbers(timerWidgetsSecondNumbers, stringMinutes[1]);
-        updateNumbers(timerWidgetsThirdNumbers, stringSeconds[0]);
-        updateNumbers(timerWidgetsFourthNumbers, stringSeconds[1]);
-      }, 1000);
+          var stringMinutes = String(minutes).padStart(2, "0");
+          var stringSeconds = String(seconds).padStart(2, "0");
 
-      var worksSwiper = new Swiper(".works-swiper", {
-        pagination: {
-          el: ".works-swiper-pagination",
-        },
-        navigation: {
-          nextEl: ".works-swiper-button-next",
-          prevEl: ".works-swiper-button-prev",
-        },
-      });
+          updateNumbers(timerWidgetsFirstNumbers, stringMinutes[0]);
+          updateNumbers(timerWidgetsSecondNumbers, stringMinutes[1]);
+          updateNumbers(timerWidgetsThirdNumbers, stringSeconds[0]);
+          updateNumbers(timerWidgetsFourthNumbers, stringSeconds[1]);
+        }, 1000);
 
-      var storiesSwiper = new Swiper(".stories-swiper", {
-        slidesPerView: 3,
-        centeredSlides: true,
-        spaceBetween: 50,
-        initialSlide: 1,
-        pagination: {
-          el: ".stories-swiper-pagination",
-        },
-      });
+        var worksSwiper = new Swiper(".works-swiper", {
+          pagination: {
+            el: ".works-swiper-pagination",
+          },
+          navigation: {
+            nextEl: ".works-swiper-button-next",
+            prevEl: ".works-swiper-button-prev",
+          },
+        });
+
+        var storiesSwiper = new Swiper(".stories-swiper", {
+          slidesPerView: 3,
+          centeredSlides: true,
+          spaceBetween: 50,
+          initialSlide: 1,
+          loop: true,
+          pagination: {
+            el: ".stories-swiper-pagination",
+          },
+        });
+      };
     </script>
   </body>
 </html>
