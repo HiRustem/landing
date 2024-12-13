@@ -861,6 +861,8 @@
 .works-swiper__card {
   width: 500px;
   height: 500px;
+  max-width: 500px;
+  max-height: 500px;
   border-radius: 1rem;
   overflow: hidden;
 }
